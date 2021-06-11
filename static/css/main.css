@@ -1,0 +1,14 @@
+.cuadro {
+    width: 2rem;
+    height: 2rem;
+}
+.cuadro:hover {
+    background-color: blue;
+}
+.cuadro2 {
+    width: 2rem;
+    height: 2rem;
+}
+.cuadro2:hover {
+    background-color: white !important;
+}
