@@ -7,7 +7,7 @@ let inputs = document.querySelectorAll(".boton")
             let patron=[];
             arrayinputs.forEach(elemento=>{
                 if (elemento.checked){
-                patron.push(1) 
+                patron.push(1)
                 }else{
                     patron.push(0)
                 }
