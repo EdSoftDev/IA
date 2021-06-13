@@ -12,3 +12,8 @@
 .cuadro_activo:hover {
     background-color: white !important;
 }
+
+.imagen {
+    width: 15rem;
+    height: 15rem;
+}

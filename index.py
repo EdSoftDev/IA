@@ -76,8 +76,6 @@ def enviar():
     numero_final = np.argmax(salida_nn[0])
     return redirect("/")
 
-
-
 @app.route('/clear', methods=["POST"])
 def clear():
     global datos
