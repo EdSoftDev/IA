@@ -1,4 +1,5 @@
 from flask import Flask, render_template, Response, request, redirect, url_for
+
 app = Flask(__name__)
 
 datos = []
