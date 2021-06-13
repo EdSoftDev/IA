@@ -70,11 +70,16 @@
                         <input type="checkbox" class="boton m-1 cuadro form-check-input">
                     </div>
                 </div>
-                <button id="botoncomprobar" type="button" class="my-2 btn btn-primary">Comprobar</button>
-                <input text="hidden" class="d-none" id="valorpatron">
+                <form action="/enviar" method="POST">
+                    <input text="hidden" name="datos" class="" id="valorpatron">
+                    <input value="Enviar" id="botoncomprobar" type="submit" class="my-2 btn btn-primary"></input>
+                </form>
             </div>
             <div class="col-6 d-flex flex-column align-items-center justify-content-center">
-                <h1 class="text-primary">El número es: </h1>
+                <h1 class="text-primary">El número es: {{ datos }}</h1>
+                <form action="/clear" method="POST">
+                    <input value="Limpiar" type="submit" class="my-2 btn btn-primary"></input>
+                </form>
             </div>
         </div>
     </div>
