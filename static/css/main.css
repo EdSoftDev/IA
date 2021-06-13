@@ -2,13 +2,13 @@
     width: 2rem;
     height: 2rem;
 }
-.cuadro:hover {
+.cuadro_activo{
     background-color: blue;
 }
-.cuadro2 {
-    width: 2rem;
-    height: 2rem;
+
+.cuadro_inactivo:hover {
+    background-color: blue;
 }
-.cuadro2:hover {
+.cuadro_activo:hover {
     background-color: white !important;
 }
