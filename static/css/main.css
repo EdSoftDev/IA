@@ -17,3 +17,19 @@
     width: 15rem;
     height: 15rem;
 }
+body {
+    background-image: url("https://static.vecteezy.com/system/resources/previews/002/199/134/original/playground-scene-with-blank-banner-many-kids-doodle-cartoon-character-free-vector.jpg");
+    background-repeat: no-repeat;
+}
+.main {
+    background-color: cornsilk;
+    opacity: 90%;
+    border-radius: 20px;
+}
+.titulo {
+    color: crimson;
+    font-size: 5rem !important;
+    background-color: cornsilk;
+    opacity: 80%;
+    border-radius: 20px;
+}

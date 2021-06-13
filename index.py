@@ -12,7 +12,7 @@ app = Flask(__name__)
 
 data = np.loadtxt("data.txt" , delimiter=" ")
 datos = []
-numero_final = 0
+numero_final = ""
 
 x=data[:,:35]
 y=data[:,35:36]
